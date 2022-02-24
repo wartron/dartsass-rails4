@@ -18,5 +18,5 @@ Gem::Specification.new do |spec|
   spec.bindir = "exe"
   spec.executables << "dartsass"
 
-  spec.add_dependency "railties", ">= 6.0.0"
+  spec.add_dependency "railties", ">= 5.2.0"
 end

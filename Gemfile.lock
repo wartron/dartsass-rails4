@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     dartsass-rails (0.3.0)
-      railties (>= 6.0.0)
+      railties (>= 5.2.0)
 
 GEM
   remote: https://rubygems.org/
