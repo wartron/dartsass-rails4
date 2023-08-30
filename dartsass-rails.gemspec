@@ -1,7 +1,7 @@
 require_relative "lib/dartsass/version"
 
 Gem::Specification.new do |spec|
-  spec.name        = "dartsass-rails"
+  spec.name        = "dartsass-rails4"
   spec.version     = Dartsass::VERSION
   spec.authors     = [ "David Heinemeier Hansson" ]
   spec.email       = "david@hey.com"
@@ -18,5 +18,5 @@ Gem::Specification.new do |spec|
   spec.bindir = "exe"
   spec.executables << "dartsass"
 
-  spec.add_dependency "railties", ">= 5.2.0"
+  spec.add_dependency "railties", ">= 4.0"
 end
